@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Mobile version of Portfolio
+# basic-portfolio
+My Professional Portfolio
