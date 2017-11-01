@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
 }
-
 #wrapper {
 	min-height: 100%;
 	margin-bottom: -145px;
@@ -21,7 +20,6 @@ body {
 	height: 100%;
 	width: 100%;
 }
-
 #name {
 	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -47,7 +45,6 @@ body {
 .links:hover {
     background-color: #4aaaa5;
     color: #ffffff;
-
 }
 #middle:hover {
 	background-color: #4aaaa5;
@@ -67,7 +64,6 @@ body {
 .links:last-child{
 	border:none;
 }
-
 #middle {
 	text-decoration: none;
 	width: 33%;
@@ -85,6 +81,7 @@ body {
 	background-image: url(../images/background.png);
 	border-top: solid;
 	border-color: #777777;
+	border-width: thin;
 	padding: 20px;
 	width: 100%;
 	height: 600px;
@@ -110,7 +107,6 @@ body {
 	height:auto;
 	border-bottom: 1px;
 	overflow: auto;
-
 }
 #headshot {
 	float: left;
@@ -122,7 +118,6 @@ body {
 	width: 270px;
 	background-color: #ffffff;
 }
-
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -130,7 +125,6 @@ p {
 	color: #777777;
 	border-top: solid;
 }
-
 #sidebar {
 	width: 270px;
 
@@ -138,8 +132,8 @@ p {
 .connect {
 	padding: 15px;
 	margin: 10px;
-	border-bottom-width: 2px;
 	border-bottom: solid;
+	border-width: thin;
 	border-bottom-color: #777777;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 28px;
@@ -155,7 +149,6 @@ p {
 	padding: 5px;
 
 }
-
 .boxes {
 	text-align: center;
 	margin: 25px;
@@ -210,6 +203,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
 	#main {
 		width: 100%;
 	}
@@ -245,13 +239,14 @@ footer {
 		padding: 10px;
 		position: static;
 	}
-	img {height: 100%; width: 100%}
-
+	.pic {
+		height: 100%;
+		width: 100%
+	}
 	.boxes {
 		height: 100%;
 		width: 100%;
 		margin: 0px;
 	}
-
 }
 
