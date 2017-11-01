@@ -6,7 +6,8 @@
 	min-height: 100%;
 	margin-bottom: -145px;
 	margin: auto;
-	width: 960px;
+	max-width: 960px;
+	width: 100%;
 	overflow: auto;
 }
 #wrapper:after {
@@ -15,6 +16,10 @@
 }
 body {
 	background-color: #ffffff;
+}
+.header {
+	height: 100%;
+	width: 100%;
 }
 
 #name {
@@ -25,7 +30,7 @@ body {
 	color: #ffffff;
 	padding: 25px 0px 20px 0px;
 	width: 250px;
-	margin-top: 5px;
+	margin-top: 0px;
 	text-align: center;
 	position: relative;
 	left: 20px;
@@ -34,7 +39,7 @@ body {
 	text-decoration: none;
 	float: right;
 	position: relative;
-	right: 5px;
+	right: 45px;
 	bottom: -35px;
 	padding: 0 5px;
 	margin: 5px;
@@ -81,7 +86,7 @@ body {
 	border-top: solid;
 	border-color: #777777;
 	padding: 20px;
-	width: 920px;
+	width: 100%;
 	height: 600px;
 	overflow: auto;	
 }
@@ -163,49 +168,65 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-	.row::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
-	.nav {
-		float: left;
-		width: 50%
-	}
-	.header {
-		width: 100%;
-	}
-	#name {
-		width: 25%;
-	}
+	
 	#main {
-		width: 50%;
+		width: 41.7%;
 	}
 	.container {
 		width: 100%;
 	}
-	.col-md-7 {
-		width: 50%;
+	#nav {
+		margin-right: 40px;
+		float: right;
 	}
-	.col-md-5 {
-		width: 50%;
+	#sidebar {
+		margin-right: 40px;
 	}
 	p {
 		float: bottom;
 	}
 	#headshot {
 		width: 100%;
-		height:
 	}
+
 }
 
 @media screen and (max-width: 768px) {
+	#main {
+		width: 100%;
+	}
+	#headshot {
+		width: 50%;
+	}
+	#sidebar {
+		width: 100%;
+		margin-top: 10px;
+	}
 }
+
 @media screen and (max-width: 640px) {
-}
 	
+	#name {
+		width: 100%;
+	}
+	#main {
+		height: auto;
+	}
+	#headshot {
+		width: 100%;
+		min-width: none;
+	}
+	.header {
+		height: 100px;
+	}
+	#nav {
+		text-align: center;
+		float: left;
+		width: 100%;
+		margin-right: 0px;
+		position: static;
+
+	}
+
 }
-	
-}
-	
-}
+
