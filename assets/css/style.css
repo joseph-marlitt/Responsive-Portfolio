@@ -105,7 +105,6 @@ body {
 	background-color: #ffffff;
 	color: #4aaaa5;
 	height:auto;
-	border-bottom: 1px;
 	overflow: auto;
 }
 #headshot {
@@ -124,6 +123,7 @@ p {
 	padding-top: 20px;
 	color: #777777;
 	border-top: solid;
+	border-top-width: thin;
 }
 #sidebar {
 	width: 270px;
