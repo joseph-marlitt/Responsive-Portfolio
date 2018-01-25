@@ -108,9 +108,11 @@ body {
 	overflow: auto;
 }
 #headshot {
+	border:solid;
+	border-width: thin;
 	float: left;
-	margin: 5px;
-	padding-top: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 #sidebar {
 	float: left;
